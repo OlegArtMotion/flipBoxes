@@ -7,7 +7,7 @@ body {
   height: 100vh;
   width: 100%;
   .container {
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -25,16 +25,15 @@ body {
 
   p {
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
-    text-align: center;
-    margin-block-start: 0;
-    margin-block-end: 0;
+   
+
   }
 }
 
 @media (max-width: 600px) {
-  .container {
+  .wrapper {
     flex-direction: column;
   }
 }
@@ -43,5 +42,5 @@ body {
   display: flex;
   align-items: center;
   width: max-content;
-  height: 400px;
+  height: 600px;
 }
